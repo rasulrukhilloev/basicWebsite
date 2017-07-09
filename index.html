@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Le Expensziv Home</title>
+	<meta character="utf-8">
+	
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+	
+	<style>
+	
+		
+		
+		body, html {
+		
+				height: 100%;
+				margin: 0;
+		}
+	
+		#part1{
+		
+			background-image: url("bi1.png");
+			height: 100%; 
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			border-bottom: 10px solid black;
+		}
+		
+		nav{
+		
+			text-align: center;
+			padding-top: 50px;
+		}
+		
+		nav a {
+		
+			text-decoration: none;
+			font-size: 23px;
+			padding: 10px;
+			color: #e6e2d3;	
+		}
+		
+		nav a:hover{
+		
+			color: black;
+		
+		}
+		
+		#logo{
+		
+			width: 250px;
+			height: 100px;
+			position: relative;
+			top: 38px;
+			
+		
+		}
+		
+		#welcome{
+		
+			text-align: center;
+			padding-top: 100px;
+			font-weight: normal;
+			font-size: 60px;
+			letter-spacing: 4px;
+			font-family: 'Dancing Script', cursive;
+			color: #fefbd8;
+		}
+
+		#slider{
+			overflow: hidden;
+			height: 700px;
+		}
+		
+		#slider figure img{
+			width: 20%;
+			float: left;
+		}
+		
+		#slider figure{
+		
+			position: relative;
+			width: 500%;
+			margin: 0;
+			left: 0;
+			text-align: left;
+			font-size: 0;
+			animation: 15s slider infinite;
+		
+		}
+		
+		@keyframes slider{
+		
+		0% {
+			left:0;
+		}
+		
+		10% {
+			left:0;
+		}
+		
+		20% {
+			left:0;
+		}
+		
+		30% {
+			left:-100%;
+		}
+		
+		40% {
+			left:-100%;
+		}
+		
+		50% {
+			left:-200%;
+		}
+		
+		60% {
+			left: -200%;
+		}
+		
+		70% {
+			left:-300%;
+		}
+		
+		90% {
+			left:-400%;
+		}
+		
+		100% {
+			left:-400%;
+		}
+		}
+		
+		#part2{
+		
+			background-image: url("bi14.jpg");
+			height: 100%; 
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			border-top: 10px solid black;
+			border-bottom: 5px solid black;
+		}
+		
+		#info {
+			
+			padding: 250px 0px 0px 200px;
+		} 
+		
+		div p {
+		
+			margin: 20px;
+			font-size: 20px;
+		
+		}
+		
+		#location{
+			
+			text-decoration: none;
+			font-weight: bold;
+			color: black;
+		
+		}
+		
+		
+		#contact{
+			
+			text-decoration: none;
+			font-weight: bold;
+			color: black;
+		}
+		
+		#reserve{
+		
+			position: relative;
+			left: 870px;
+			bottom: 150px;
+			font-size: 30px;
+			text-decoration: none;
+			color: black;
+		}
+		
+		#reserve:hover{
+			text-decoration: underline;
+			color: gray;
+		
+		}
+		
+		footer{
+		
+			text-align: center;
+			color: #FFFFFF;
+			background-color: #24252F;
+			
+		
+		}
+		
+		footer img{
+		
+			width: 50px;
+		
+		}
+		
+		</style>
+	
+	
+</head>
+
+<body>
+		
+		<div id="part1">
+	
+			<nav>
+	
+				<a href="homepage1.html">Home</a>
+				<a href="menu.html">Menu</a>
+				<a href="book.html">Reservation</a>
+	
+				<img id="logo" src="logo.png">
+		
+				<a href="offers.html">Offers</a>
+				<a href="contact.html">Contact us</a>
+				<a href="about.html">About us</a>
+	
+			</nav>
+			
+			<h2 id="welcome"> Welcome to <br>Le Expensziv</h2>
+			
+		</div>
+	
+		<div id="slider">
+			<figure>
+				<img class="pics" src="img1.jpg">
+				<img class="pics" src="img2.jpg">
+				<img class="pics" src="img4.png">
+				<img class="pics" src="img6.jpeg">
+				<img class="pics" src="bi11.jpg">
+			</figure>
+		</div>
+			
+		<div id="part2">
+			<div id="info">
+			<p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp	 <b>Operating Hours:</b><br>
+				Monday-Friday: 11:00 A.M. - 23:00 P.M.<br>
+				Saturday-Sunday: 11:00 A.M. - 02:00 P.M.</p>
+			<p><a id="location"href="contact.html">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Location:</a><br>
+			Le Village, Jalan Petaling, Kuala Lumpur</p>
+			<p><a id="contact" href="contact.html">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Contacts:</a><br>
+			rukhillaevrasul@gmail.com <b>|</b> +60172560032</p>
+			</div>
+			<h3><a  id="reserve" href="book.html">Make a Reservation<a></h3>
+	
+		</div>
+			
+		<footer>
+	
+			<a href="https://facebook.com">
+				<img src="facebook.png" alt="Facebook">
+			</a>
+			<a href="https://twitter.com">
+				<img src="twitter.png" alt="Twitter">
+			</a>
+			<a href="https://instagram.com">
+				<img src="instagram.jpg" alt="Instagram">
+			</a>
+			
+			<p>&copy Le Expensziv 2017. All rights reserved</p>
+			<p>Designed by 4 Help University students</p>
+			
+			
+		</footer>
+		
+			
+		
+</body>
+</html>
+	
